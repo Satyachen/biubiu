@@ -118,20 +118,18 @@
 {"name":"QC影视","url":"https://www.qcsvip.com/mogai_api.php/v1.vod"},
 {"name":"913e影视","url":"http://www.913e.net/xgapp.php/v1/"},
 {"name":"海胆影视","url":"http://xf123.cc/api.php/app/"},
-{"name":"水蜜桃","url":"https://51smt4.xyz/api.php"}
-{"name":"色猫资源","url":"https://api.maozyapi.com/inc/api.php"}
-{"name":"老鸭资源","url":"https://api.apilyzy.com/api.php/provide/vod/"}
-{"name":"色窝资源","url":"https://sewozyapi.com/api.php/provide/vod/"}
-{"name":"秀色资源","url":"https://api.xiuseapi.com/api.php/provide/art/"}
-{"name":"丝袜资源","url":"https://siwazyw.cc/api.php/provide/vod/at/json/"}
-{"name":"JAV名优资源","url":"http://mygzycj.com/sapi.php"}
-{"name":"色色资源","url":"http://secj8.com/inc/sapi.php"}
-{"name":"亚环资源","url":"http://wmcj8.com/inc/sapi.php"}
+{"name":"水蜜桃","url":"https://51smt4.xyz/api.php"},
+{"name":"色猫资源","url":"https://api.maozyapi.com/inc/api.php"},
+{"name":"老鸭资源","url":"https://api.apilyzy.com/api.php/provide/vod/"},
+{"name":"色窝资源","url":"https://sewozyapi.com/api.php/provide/vod/"},
+{"name":"秀色资源","url":"https://api.xiuseapi.com/api.php/provide/art/"},
+{"name":"丝袜资源","url":"https://siwazyw.cc/api.php/provide/vod/at/json/"},
+{"name":"JAV名优资源","url":"http://mygzycj.com/sapi.php"},
+{"name":"色色资源","url":"http://secj8.com/inc/sapi.php"},
+{"name":"亚环资源","url":"http://wmcj8.com/inc/sapi.php"},
 {"name":"花椒资源","url":"https://apihjzy.com/api.php/provide/vod/"}
 ],
 "caijizhan": [
-// 填采集站接口,
-// 采集站后缀填写到api.php就可以了，后面那些不用填写，一次只可以填写一个。
 {"name":"if101(海外推荐)","url":"https://demo.if101.tv/api.php"},
 {"name":"苹果采集","url":"http://107.150.5.146:39000/maccms10-main/api.php"},
 {"name":"特狗影视","url":"http://tv.tegouys.com/api.php/iptv/vod/"},
@@ -280,9 +278,6 @@
 ],
 
 "lunbo":[
-// 填写轮播平台的翻页链接&前綴 (BASE64)
-// fanye(翻页链接) https://www.douyu.com/gapi/rkc/directory/mixList/2_208/
-// qianzhui(前綴) http://epg.112114.xyz/douyu/
 {"name": "斗鱼一起看","fanye": "aHR0cHM6Ly93d3cuZG91eXUuY29tL2dhcGkvcmtjL2RpcmVjdG9yeS9taXhMaXN0LzJfMjA4Lw==","qianzhui": "aHR0cDovL2VwZy4xMTIxMTQueHl6L2RvdXl1Lw=="},
 {"name": "DY王者荣耀看","fanye":"aHR0cHM6Ly93d3cuZG91eXUuY29tL2dhcGkvcmtjL2RpcmVjdG9yeS9taXhMaXN0LzJfMTgxLw==","qianzhui":"aHR0cDovLzEyNC4yMjMuMjEyLjM4OjgzL2RvdXl1Lw=="},
 {"name": "虎牙一起看","fanye": "aHR0cHM6Ly93d3cuaHV5YS5jb20vY2FjaGUucGhwP209TGl2ZUxpc3QmZG89Z2V0TGl2ZUxpc3RCeVBhZ2UmZ2FtZUlkPTIxMzUmdGFnQWxsPTAmY2FsbGJhY2s9Z2V0TGl2ZUxpc3RKc29ucENhbGxiYWNrJnBhZ2U9","qianzhui": "aHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9odXlhLw==","qianzhui": "aHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9odXlhLw=="},
@@ -303,47 +298,37 @@
 {"name": "HY户外","fanye": "aHR0cHM6Ly93d3cuaHV5YS5jb20vY2FjaGUucGhwP209TGl2ZUxpc3QmZG89Z2V0TGl2ZUxpc3RCeVBhZ2UmZ2FtZUlkPTIxNjUmdGFnQWxsPTAmY2FsbGJhY2s9Z2V0TGl2ZUxpc3RKc29ucENhbGxiYWNrJnBhZ2U9","qianzhui": "aHR0cDovLzEyNC4yMjMuMjEyLjM4OjgzL2h1eWEv"},
 {"name":"yy","fanye": "aHR0cHM6Ly93d3cueXkuY29tL21vcmUvcGFnZS5hY3Rpb24/Yml6PXNpbmcmc3ViQml6PWlkeCZwYWdlPQ==","qianzhui": "aHR0cHM6Ly93d3cueXkuY29t"}
 ],
-// 主解析 是JSON直链的，可以添加多个，用#号分割，最后一个不加#号
 "zhujiexi": "https://za.kuanjv.com/?url=#https://json.iku.cool/api/?key=3qTKEDXBaIaOiGjYwX&url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url=#https://humaosp.com/json.php?url=#https://json.5lp.net/json.php?url=#https://jhpc.manduhu.com/j1217.php?url=#http://103.40.240.46/jh/?url=#https://za.kuanjv.com/?url=#https://jhpc.manduhu.com/j1217.php?url=#http://81.70.242.138:8089/GetVideoJson?url=#http://user.seakee.cn/system/api?uid=88901347&token=3148408605aea4c040057d6d5564f3b4&url=",
-// 备用解析 是常规格式的解析，可以添加多个，用#号分割，最后一个不加#号
 "beiyongjiexi": "https://nbjx.vip/?url=#https://jx.blbo.cc:4433/?url=#https://www.nxflv.com/?url=#http://m2090.com/?url=#https://jx.parwix.com:4433/player/?url=#https://lecurl.cn/?url=#https://jx.parwix.com:4433/player/?url=#https://lecurl.cn/?url=#https://2.08bk.com/?url=#https://okjx.cc/?url=#https://z1.m1907.cn/?a=#https://www.administratorw.com/admin.php?url=#https://jx.xmflv.com/?url=#http://jx5.178du.com/p1/?url=#https://jx.xuanqi.pro/?url=#https://www.nxflv.com/?url=#https://svip.bljiex.cc/?v=", 
-// 电视直播的接口链接
 "dianshizhibo": "http://maoyingshi.cc/biubiu/zhibo0525.txt",
-// 体育直播平台的翻页链接
 "tiyuzhibo": "https://m.zhibo8.net",
 "reci": "https://v.sogou.com",
 "guolvdizhi": "player.css#url=#cnzz.com#51.la",
 "wuqu": "aHR0cDovL3d3dy5kanV1LmNvbQ==",
-// 填写轮播平台的翻页链接
 "lunbofanye": "https://www.douyu.com/gapi/rkc/directory/mixList/2_208/",
 "lunboqianzhui": "https://m.douyu.com",
 "Home": {
-// 主页接口.电影filter
 "dy": {
 "class": "全部$&class=#喜剧$&class=喜剧#爱情$&class=爱情#动作$&class=动作#枪战$&class=枪战#犯罪$&class=犯罪#惊悚$&class=惊悚#恐怖$&class=恐怖#悬疑$&class=悬疑#动画$&class=动画#家庭$&class=家庭#奇幻$&class=奇幻#魔幻$&class=魔幻#科幻$&class=科幻#战争$&class=战争#青春$&class=青春#剧情$&class=剧情#西部$&class=西部#纪录$&class=记录#音乐$&class=音乐#歌舞$&class=歌舞#运动$&class=运动#历史$&class=历史#武侠$&class=武侠#冒险$&class=冒险#传记$&class=传记",
 "area": "全部$&area=#内地$&area=内地#香港$&area=香港#美国$&area=美国#欧洲$&area=欧洲#韩国$&area=韩国#日本$&area=日本#泰国$&area=泰国#印度$&area=印度#其它$&area=其它",
 "year": "全部$&lang=&year=#2022$&lang=&year=2022#2021$&lang=&year=2021#2020$&lang=&year=2020#2019$&lang=&year=2019#2018$&lang=&year=2018#2017$&lang=&year=2017#2016-2011$&lang=&year=2016#2010-2000$&lang=&year=2010#90年代$&lang=&year=90#80年代$&lang=&year=80#更早$&lang=&year=70"
 },
-// 主页接口.电视剧filter
 "dsj": {
 "class": "全部$&class=#古装$&class=古装#言情$&class=言情#武侠$&class=武侠#偶像$&class=偶像#家庭$&class=家庭#青春$&class=青春#都市$&class=都市#喜剧$&class=喜剧#战争$&class=战争#军旅$&class=军旅#谍战$&class=谍战#悬疑$&class=悬疑#罪案$&class=罪案#穿越$&class=穿越#宫廷$&class=宫廷#历史$&class=历史#神话$&class=神话#科幻$&class=科幻#年代$&class=年代#农村$&class=农村#商战$&class=商战#剧情$&class=剧情#奇幻$&class=奇幻",
 "area": "全部$&area=#内地$&area=内地#香港$&area=香港#美国$&area=美国#英国$&area=英国#韩国$&area=韩国#日本$&area=日本#泰国$&area=泰国#台湾$&area=台湾#其它$&area=其它",
 "year": "全部$&lang=&year=#2022$&lang=&year=2022#2021$&lang=&year=2021#2020$&lang=&year=2020#2019$&lang=&year=2019#2018$&lang=&year=2018#2017$&lang=&year=2017#2016-2011$&lang=&year=2016#2010-2000$&lang=&year=2010#90年代$&lang=&year=90#80年代$&lang=&year=80#更早$&lang=&year=70"
 },
-// 主页接口.综艺filter
 "zy": {
 "class": "全部$&class=#表演$&class=表演#播报$&class=播报#访谈$&class=访谈#体验$&class=体验#养成$&class=养成#游戏$&class=游戏#亲子$&class=亲子#美食$&class=美食#情感$&class=情感#选秀$&class=选秀#益智$&class=益智#晚会$&class=晚会#音乐$&class=音乐#文化$&class=文化#喜剧$&class=喜剧#曲艺$&class=曲艺#职场$&class=职场#脱口秀$&class=脱口秀#真人秀$&class=真人秀#竞技$&class=竞技#体育$&class=体育#萌宠$&class=萌宠",
 "area": "全部$&area=#内地$&area=内地#香港$&area=香港#美国$&area=美国#韩国$&area=韩国#日本$&area=日本#台湾$&area=台湾",
 "year": "全部$&lang=&year=#2022$&lang=&year=2022#2021$&lang=&year=2021#2020$&lang=&year=2020#2019$&lang=&year=2019#2018$&lang=&year=2018#2017$&lang=&year=2017#2016-2011$&lang=&year=2016#2010-2000$&lang=&year=2010#90年代$&lang=&year=90#80年代$&lang=&year=80#更早$&lang=&year=70"
 },
-// 主页接口.动漫filter
 "dm": {
 "class": "全部$&class=#搞笑$&class=搞笑#番剧$&class=番剧#国创$&class=国创#大电影$&class=大电影#热血$&class=热血#催泪$&class=催泪#治愈$&class=治愈#励志$&class=励志#机战$&class=机战#战斗$&class=战斗#恋爱$&class=恋爱#科幻$&class=科幻#奇幻$&class=奇幻#魔幻$&class=魔幻#推理$&class=推理#校园$&class=校园#日常$&class=日常#经典$&class=经典#历史$&class=历史#美食$&class=美食#职场$&class=职场#偶像$&class=偶像#泡面$&class=泡面#冒险$&class=冒险#竞技$&class=竞技#武侠$&class=武侠#玄幻$&class=玄幻",
 "area": "全部$&area=#内地$&area=内地#日本$&area=日本#欧美$&area=欧美#其它$&area=其它",
 "year": "全部$&lang=&year=#2022$&lang=&year=2022#2021$&lang=&year=2021#2020$&lang=&year=2020#2019$&lang=&year=2019#2018$&lang=&year=2018#2017$&lang=&year=2017#2016-2011$&lang=&year=2016#2010-2000$&lang=&year=2010#90年代$&lang=&year=90#80年代$&lang=&year=80#更早$&lang=&year=70"
 }
 },
-// 自定义接口
 "zidingyi":[
 {
   "name": "厂长资源-蓝光官方",
