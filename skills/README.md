@@ -16,5 +16,5 @@ Control your [1Panel](https://1panel.cn) Linux server management panel programma
 
 **Install:**
 ```bash
-hermes skills install https://raw.githubusercontent.com/Satyachen/biubiu/main/skills/1panel-management/SKILL.md
+hermes skills install https://raw.githubusercontent.com/Satyachen/hermes-skills/main/skills/1panel-management/SKILL.md
 ```
